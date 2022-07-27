@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiny music player ✨</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/imagens/favicon.png">
+</head>
+<body>
+    <h1>current favorite songs</h1>
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">hurt</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <audio src="/músicas/PorterRobinson-EverythingGoesOn.mp3" id="audio"></audio>
+
+        <div class="img-container">
+            <img src="/imagens/hurt.jpg" alt="music-cover" id="cover">
+        </div>
+
+       <div class="navigation">
+        <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+        </button>
+       </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
