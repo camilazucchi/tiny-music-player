@@ -146,10 +146,11 @@ body h1 {
     transition: width 0.1s linear;
 }
 
-footer p {
+footer p, a {
     color: #ccd5ae;
     letter-spacing: 2px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
 }
