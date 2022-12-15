@@ -1,5 +1,5 @@
 # Tiny Music Player 🎧
-![Imagem do projeto](https://uploaddeimagens.com.br/images/004/262/119/full/tinyMusicPlayer.PNG?1671124569)
+![Imagem do projeto](https://uploaddeimagens.com.br/images/004/262/126/original/tinyMusicPlayer3.PNG?1671124679)
 
 ## Sobre
 Tiny Music Player é um projeto básico de player musical feito com o intuito de praticar skills em HTML, CSS e, principalmente JavaScript, através da manipulação do DOM para selecionar os elementos necessários e utilização de funções para cada funcionalidade.
