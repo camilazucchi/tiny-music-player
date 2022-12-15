@@ -18,8 +18,8 @@ loadSong(songs[songIndex])
 // update músicas
 function loadSong(song) {
     title.innerText = song;
-    audio.src = `musicas/${song}.mp3`;
-    cover.src = `imagens/${song}.jpg`;
+    audio.src = `assets/musicas/${song}.mp3`;
+    cover.src = `assets/imagens/${song}.jpg`;
 }
 
 function playSong() {
